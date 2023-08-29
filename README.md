@@ -19,4 +19,6 @@ STEP 06 - Create the gitignore file: touch .gitignore
 
 STEP 07 - Configure the Package JSON scripts ("start": "tsc && node ./build/index.js",) to build and run the server
 
-STEP 08 - Start the server: npm start
+STEP 08 - Add this config in tsconfig.json: "lib": ["es6", "dom"],
+
+STEP 09 - Start the server: npm start
